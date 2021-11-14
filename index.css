@@ -1,0 +1,38 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  padding: 0;
+  margin-left: 73px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+header nav ul li:not(:last-child) {
+  margin-right: 37px;
+}
+
+header .lang {
+  margin-left: 57px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: wheat;
+}
